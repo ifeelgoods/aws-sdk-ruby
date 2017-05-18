@@ -12,8 +12,7 @@ application.
   s.homepage = 'http://aws.amazon.com/sdkforruby'
 
   s.add_dependency('nokogiri', '~> 1')
-  s.add_dependency('json', '~> 1.4')
-
+  
   s.files = [
     'ca-bundle.crt',
     'rails/init.rb',    # for compatibility with older versions of rails
